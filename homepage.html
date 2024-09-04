@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="center">
+        <h1>Welcome!</h1>
+        <p id="welcomeMessage"></p>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+        // Simulate fetching the user's name
+        const userName = localStorage.getItem('userName') || "User";
+
+        // Display the welcome message
+        document.getElementById('welcomeMessage').textContent = `Welcome, ${userName}!`;
+
+        // Logout function
+        function logout() {
+            alert("You have been logged out.");
+            window.location.href = 'login.html';
+        }
+    </script>
+
+</body>
+</html>

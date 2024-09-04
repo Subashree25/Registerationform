@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://www.newcomersjobcentre.ca/wp-content/uploads/company_logos/2018/03/login-page-1.jpg');
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 90%;
+    font-weight: bold;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: black;
+    padding: 25px;
+    box-sizing: border-box;
+    height: 100%;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0 0 20px 0;
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #7B68EE;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #4B0082;
+    background-color: #f8f8ff;
+    box-sizing: border-box;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #4B0082;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #7B68EE;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #6A5ACD;
+}
+
+.signup_link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+.signup_link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}
